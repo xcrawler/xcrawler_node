@@ -2,9 +2,14 @@ Xcrawler Node
 
 
 TODO:
-  . schedule the first tasks.
+  . integrate maintainability add-ons in URL -
+    'http://tech.findmypast.com/elixir-maintainability/'.
+
+  . write the main design doc, for example,
+    crawler -> headless browser -> redis -> elasticsearch
 
 
 Dec.27.2016
   . init project via cli-command 'mix new xcrawler_node --sup'.
+  . schedule the first tasks.
 
