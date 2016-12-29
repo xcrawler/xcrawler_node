@@ -1,0 +1,10 @@
+Xcrawler Node
+
+
+TODO:
+  . schedule the first tasks.
+
+
+Dec.27.2016
+  . init project via cli-command 'mix new xcrawler_node --sup'.
+
