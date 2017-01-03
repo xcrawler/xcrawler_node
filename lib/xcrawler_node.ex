@@ -1,4 +1,8 @@
 defmodule XcrawlerNode do
+  @moduledoc """
+  this module implements the functions to grab web pages.
+  """
+
   use Application
 
   # See http://elixir-lang.org/docs/stable/elixir/Application.html
@@ -8,7 +12,8 @@ defmodule XcrawlerNode do
 
     # Define workers and child supervisors to be supervised
     children = [
-      # Starts a worker by calling: XcrawlerNode.Worker.start_link(arg1, arg2, arg3)
+      # Starts a worker by calling:
+      # XcrawlerNode.Worker.start_link(arg1, arg2, arg3)
       # worker(XcrawlerNode.Worker, [arg1, arg2, arg3]),
     ]
 
@@ -18,3 +23,4 @@ defmodule XcrawlerNode do
     Supervisor.start_link(children, opts)
   end
 end
+
