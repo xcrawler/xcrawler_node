@@ -2,9 +2,13 @@ Xcrawler Node
 
 
 TODO:
-  . write the main design doc, for example,
-    crawler -> headless browser -> redis -> elasticsearch
+  . search add-ons to impl an analyzer (according to TODO in Main Design).
+  . impl the first version of Crawler - TODO.
 
+
+Jan.10.2016
+  . search add-ons according to the basic functions of a crawler
+    (start to write Main Design).
 
 Jan.3.2016
   . integrate maintainability add-ons in URL -

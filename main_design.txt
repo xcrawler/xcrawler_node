@@ -1,0 +1,25 @@
+Main Design
+
+
+Crawler
+
+  . HTTP client       - https://github.com/edgurgel/httpoison
+  . Headless Browser  - https://github.com/HashNuke/hound
+
+  . Database to save Web pages      - 'mongodb'
+  . Database to save Crawler state  - 'postgresql'
+
+
+Analyzer (TODO)
+
+  . 'mongodb' monitor
+    (it is important, because it affects if analyzer could be separated from
+     crawler).
+
+  . dynamically mount analyzing tasks
+    (through predefined JSON format, NO need to write code).
+
+  . save analyzing state (schedule) to 'postgresql'.
+
+  . HTML parser
+
